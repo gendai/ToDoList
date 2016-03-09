@@ -60,14 +60,14 @@ public class MainActivity extends Activity {
                 cus.notifyDataSetChanged();
             }
         });*/
-        /*lstv.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
+        lstv.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
             @Override
             public boolean onItemLongClick(AdapterView<?> parent, View view, int position, long id) {
                 cus.delete(position);
                 cus.notifyDataSetChanged();
                 return true;
             }
-        });*/
+        });
 
         lstv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
