@@ -30,7 +30,7 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         addb = (Button) findViewById(R.id.buttonADD);
-        //delb = (Button) findViewById(R.id.buttonDEL);
+        delb = (Button) findViewById(R.id.buttonDEL);
         edt = (EditText) findViewById(R.id.textbox);
         edt.setText("");
         lstv = (ListView) findViewById(R.id.ListView);
@@ -53,13 +53,13 @@ public class MainActivity extends Activity {
                 }
             }
         });
-       /* delb.setOnClickListener(new View.OnClickListener() {
+       delb.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 cus.Clear();
                 cus.notifyDataSetChanged();
             }
-        });*/
+        });
         lstv.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
             @Override
             public boolean onItemLongClick(AdapterView<?> parent, View view, int position, long id) {

@@ -19,7 +19,12 @@
         android:layout_height="6mm"
         android:layout_marginLeft="30mm"
         android:text="Add"/>
-
+    <Button
+        android:id="@+id/buttonDEL"
+        android:layout_width="12mm"
+        android:layout_height="6mm"
+        android:layout_marginLeft="40mm"
+        android:text="Clear"/>
     <ListView
         android:id="@+id/ListView"
         android:layout_width="55mm"
